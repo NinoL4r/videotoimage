@@ -1,6 +1,6 @@
 import cv2
-videoFile = '~/2022-03-19-12-15-57_screen.h264'
-outputFile = '~/frame/2022-03-19-12-15-57--'
+videoFile = '~/aa.h264'
+outputFile = '~/frame/aa--'
 vc = cv2.VideoCapture(videoFile)
 c = 1
 if vc.isOpened():
